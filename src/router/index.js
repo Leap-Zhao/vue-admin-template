@@ -43,6 +43,7 @@ export const constantRoutes = [
     hidden: true
   },
 
+  //首页面板
   {
     path: '/',
     component: Layout,
@@ -55,6 +56,30 @@ export const constantRoutes = [
     }]
   },
 
+  //工单部分
+  {
+    path: '/workorder',
+    component: Layout,
+    redirect: '/workorder/index',
+    name: 'Example',
+    meta: { title: '工单系统', icon: 'el-icon-s-help' },
+    children: [
+      {
+        path: 'table',
+        name: 'Table',
+        component: () => import('@/views/workorder/index'),
+        meta: { title: '工单申请', icon: 'table' }
+      },
+      {
+        path: 'tree',
+        name: 'Tree',
+        component: () => import('@/views/tree/index'),
+        meta: { title: 'Tree', icon: 'tree' }
+      }
+    ]
+  },
+
+  // example示例
   {
     path: '/example',
     component: Layout,
