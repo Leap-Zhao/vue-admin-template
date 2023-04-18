@@ -17,19 +17,6 @@
             <div class="workflow-classify-title" style="margin-bottom: 20px;">
             Demo演示
             </div>
-            <!-- <el-button type="" size="default" @click="" class="ow-body-content">
-                <div style="" class="ow-body-content-main-icon"><i class="el-icon-s-unfold"></i></div>
-                <div class= "ow-body-content-main-title" style="">自动化工单</div>
-                <div class="ow-body-content-sub-title">用于提交自动化问题</div>
-            </el-button> -->
-            
-            <!-- <div class="ow-body-content">
-                <el-button type="" size="default" @click=""> -->
-                    <!-- <div style="font-size: 30px;"><i class="el-icon-s-unfold"></i></div>
-                    <div>自动化工单</div>
-                    <div>针对自动化环境问题</div> -->
-                <!-- </el-button>
-            </div> -->
             <div class="workflow-classify-div">
                 <el-button style="width: 100%" plain @click="">
                     <div class="process-button-div">

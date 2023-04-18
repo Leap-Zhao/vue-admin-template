@@ -73,8 +73,8 @@ export const constantRoutes = [
       {
         path: 'tree',
         name: 'Tree',
-        component: () => import('@/views/tree/index'),
-        meta: { title: 'Tree', icon: 'tree' }
+        component: () => import('@/views/workorder/create_case_wo'),
+        meta: { title: '工单创建-自动化', icon: 'tree' }
       }
     ]
   },
